@@ -1,1 +1,15 @@
+//Task 1
+let initializeArray = Array(7).fill("Hello");
+console.log(initializeArray);
 
+//Task 2
+let initializeArray2 = Array(7).fill("Hello");
+initializeArray2.fill("Hi", 2, 6)
+console.log(initializeArray2);
+
+//Task3
+let newArray3 = Array(5);
+for (let i=0; i < newArray3.length; i++) {
+    newArray3[i] = i * 10;
+}
+console.log(newArray3);
